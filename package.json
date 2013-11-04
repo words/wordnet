@@ -1,0 +1,14 @@
+{
+  "name": "WordNet.js",
+  "version": "0.0.1",
+  "description": "Node.js wrapper for WordNet DB",
+  "main": "./lib/wordnet.js",
+  "dependencies": {
+    "async": "~0.2.9"
+  },
+  "devDependencies": {
+    "commander": "~2.0.0"
+  },
+  "author": "Dariusz Dziuk <me@dariuszdziuk.com>",
+  "license": "MIT"
+}

@@ -1,6 +1,6 @@
 {
-  "name": "WordNet.js",
-  "version": "0.0.1",
+  "name": "wordnet",
+  "version": "0.1.0",
   "description": "Node.js wrapper for WordNet DB",
   "main": "./lib/wordnet.js",
   "dependencies": {
@@ -9,6 +9,7 @@
   "devDependencies": {
     "commander": "~2.0.0"
   },
+  "repository": "https://github.com/dariuszdziuk/wordnet",
   "author": "Dariusz Dziuk <me@dariuszdziuk.com>",
   "license": "MIT"
 }

@@ -27,6 +27,6 @@ wordnet.lookup(word, function(err, definition) {
     return;
   }
 
-  console.log('[%s]\n\n%s', word, definition);
+  console.log('[%s]\n\n', word, definition);
 
 });

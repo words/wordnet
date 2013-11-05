@@ -59,7 +59,7 @@ wordnet.lookup(word, function(err, definitions) {
             }
           });
 
-          if (found) {
+          if (found || ['*', '='].indexOf(pointer.pointerSymbol) > -1) {
             printWord(pointer.data, false);
           }
 

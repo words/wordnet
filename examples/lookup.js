@@ -46,8 +46,19 @@ wordnet.lookup(word, function(err, definitions) {
       /* Print pointers */
       if (usePointers) {
         definition.meta.pointers.forEach(function(pointer) {
-          console.log('  pointer type: %s (%s)', pointer.pointerSymbol, pointer.sourceTargetHex);
-          printWord(pointer.data, false);
+
+          /* Print the word only if contains (or prefixes) the look up expression */
+          var found = false;
+          pointer.data.meta.words.forEach(function(aWord) {
+            if (aWord.word.indexOf(word) === 0) {
+              found = true;
+            }
+          });
+
+          if (found) {
+            printWord(pointer.data, false);
+          }
+
         });
       }
 

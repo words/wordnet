@@ -47,6 +47,10 @@ wordnet.lookup(word, function(err, definitions) {
       if (usePointers) {
         definition.meta.pointers.forEach(function(pointer) {
 
+          if (!pointer.data.meta) {
+            return;
+          }
+
           /* Print the word only if contains (or prefixes) the look up expression */
           var found = false;
           pointer.data.meta.words.forEach(function(aWord) {

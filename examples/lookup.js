@@ -32,15 +32,28 @@ wordnet.lookup(word, function(err, definitions) {
   /* Definitions */
   definitions.forEach(function(definition) {
 
-    console.log('  type : %s', definition.meta.synsetType);
-    var words = '';
-    definition.meta.words.forEach(function(word) {
-      words += word.word + ' ';
-    });
-    console.log('  words: %s', words.trim());
-    console.log('  %s', definition.glossary);
+    function printWord(definition, usePointers) {
 
-    console.log();
+      console.log('  type : %s', definition.meta.synsetType);
+      var words = '';
+      definition.meta.words.forEach(function(word) {
+        words += word.word + ' ';
+      });
+      console.log('  words: %s', words.trim());
+      console.log('  %s', definition.glossary);
+      console.log();
+
+      /* Print pointers */
+      if (usePointers) {
+        definition.meta.pointers.forEach(function(pointer) {
+          console.log('  pointer type: %s (%s)', pointer.pointerSymbol, pointer.sourceTargetHex);
+          printWord(pointer.data, false);
+        });
+      }
+
+    }
+
+    printWord(definition, true);
 
   });
 

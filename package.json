@@ -1,7 +1,8 @@
 {
   "name": "wordnet",
-  "version": "0.1.0",
   "description": "Node.js wrapper for WordNet DB",
+  "version": "0.1.0",
+  "author": "Dariusz Dziuk <me@dariuszdziuk.com>",
   "main": "./lib/wordnet.js",
   "dependencies": {
     "async": "~0.2.9"
@@ -9,7 +10,14 @@
   "devDependencies": {
     "commander": "~2.0.0"
   },
-  "repository": "https://github.com/dariuszdziuk/wordnet",
-  "author": "Dariusz Dziuk <me@dariuszdziuk.com>",
-  "license": "MIT"
+  "keywords": [
+    "wordnet",
+    "dictionary",
+    "lookup"
+  ],
+  "repository": "git://github.com/dariuszdziuk/wordnet",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.0"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "wordnet",
-  "description": "Node.js wrapper for WordNet DB",
+  "description": "English-English dictionary with 140k+ words from WordNet.",
   "version": "0.1.2",
   "author": "Dariusz Dziuk <me@dariuszdziuk.com>",
   "main": "./lib/wordnet.js",

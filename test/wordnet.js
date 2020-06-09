@@ -11,6 +11,7 @@ test('api', async (t) => {
   // - Calling API functions before init.
   // - Searching for a word not in the database.
 
+  // TODO: Add test for initializing with a custom path.
   await wordnet.init();
 
   let list = await wordnet.list();

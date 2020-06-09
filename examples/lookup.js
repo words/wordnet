@@ -1,13 +1,6 @@
-#!/usr/bin/env node
-
-/**
- * WordNet lookup example
- *
- * @author Dariusz Dziuk <me@dariuszdziuk.com>
- */
-
-var program = require('commander');
-var wordnet = require('../lib/wordnet.js');
+const util = require('util');
+const program = require('commander');
+const wordnet = require('../lib/wordnet.js');
 
 program
   .version('0.0.1')
@@ -15,61 +8,52 @@ program
   .parse(process.argv);
 
 /* Word to look up */
-var word = program.args[0];
+const word = program.args[0];
 if (!word) {
   program.help();
 }
 
-wordnet.lookup(word, function(err, definitions) {
+function printWord(def, includePointers) {
+  let words = def.meta.words.reduce((str, word) => {
+    return `${str} ${word.word}`;
+  }, '');
 
-  if (err) {
-    console.log('An error occured: %s', err);
-    return;
-  }
+  console.log(`  type: ${def.meta.synsetType}`)
+  console.log(`  words: ${words.trim()}`);
+  console.log(`  ${def.glossary}\n`);
 
-  console.log('\n  %s\n', word);
-
-  /* Definitions */
-  definitions.forEach(function(definition) {
-
-    function printWord(definition, usePointers) {
-
-      console.log('  type : %s', definition.meta.synsetType);
-      var words = '';
-      definition.meta.words.forEach(function(word) {
-        words += word.word + ' ';
-      });
-      console.log('  words: %s', words.trim());
-      console.log('  %s', definition.glossary);
-      console.log();
-
-      /* Print pointers */
-      if (usePointers) {
-        definition.meta.pointers.forEach(function(pointer) {
-
-          if (!pointer.data.meta) {
-            return;
-          }
-
-          /* Print the word only if contains (or prefixes) the look up expression */
-          var found = false;
-          pointer.data.meta.words.forEach(function(aWord) {
-            if (aWord.word.indexOf(word) === 0) {
-              found = true;
-            }
-          });
-
-          if (found || ['*', '='].indexOf(pointer.pointerSymbol) > -1) {
-            printWord(pointer.data, false);
-          }
-
-        });
+  /* Print pointers */
+  if (includePointers) {
+    def.meta.pointers.forEach(function(pointer) {
+      if (!pointer.data.meta) {
+        return;
       }
 
-    }
+      /* Print the word only if contains (or prefixes) the look up expression */
+      let found = false;
+      pointer.data.meta.words.forEach(function(aWord) {
+        if (aWord.word.indexOf(word) === 0) {
+          found = true;
+        }
+      });
 
+      if (found || ['*', '='].indexOf(pointer.pointerSymbol) > -1) {
+        printWord(pointer.data, false);
+      }
+
+    });
+  }
+}
+
+(async () => {
+  await wordnet.init();
+
+  let definitions = await wordnet.lookup(word);
+
+  console.log(`\n  ${word}\n`);
+
+  definitions.forEach((definition) => {
     printWord(definition, true);
-
   });
 
-});
+})();

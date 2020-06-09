@@ -1,4 +1,3 @@
-const util = require('util');
 const program = require('commander');
 const wordnet = require('../lib/wordnet.js');
 

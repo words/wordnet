@@ -1,6 +1,645 @@
 {
   "test": [{
-    "glossary": "put to the test, as for its quality, or give experimental use to; \"This approach has been tried with good results\"; \"Test this recipe\"",
+    "meta": {
+      "synsetOffset": 5799212,
+      "lexFilenum": 9,
+      "synsetType": "noun",
+      "wordCount": 4,
+      "words": [
+        { "word": "trial", "lexId": 0 },
+        { "word": "trial_run", "lexId": 0 },
+        { "word": "test", "lexId": 2 },
+        { "word": "tryout", "lexId": 0 }
+      ],
+      "pointerCount": 10,
+      "pointers": [
+        {
+          "pointerSymbol": "@",
+          "synsetOffset": 5798043,
+          "pos": "n",
+          "sourceTargetHex": "0000",
+          "data": {
+            "meta": {
+              "synsetOffset": 5798043,
+              "lexFilenum": 9,
+              "synsetType": "noun",
+              "wordCount": 2,
+              "words": [
+                { "word": "experiment", "lexId": 0 },
+                { "word": "experimentation", "lexId": 0 }
+              ],
+              "pointerCount": 6,
+              "pointers": [
+                {
+                  "pointerSymbol": "@",
+                  "synsetOffset": 5797597,
+                  "pos": "n",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 2532886,
+                  "pos": "v",
+                  "sourceTargetHex": "0201"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 2532595,
+                  "pos": "v",
+                  "sourceTargetHex": "0201"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 2532595,
+                  "pos": "v",
+                  "sourceTargetHex": "0101"
+                },
+                {
+                  "pointerSymbol": "~",
+                  "synsetOffset": 5799071,
+                  "pos": "n",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": "~",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0000"
+                }
+              ]
+            },
+            "glossary": "the testing of an idea; \"it was an experiment in living\"; \"not all experimentation is done in laboratories\""
+          }
+        },
+        {
+          "pointerSymbol": "+",
+          "synsetOffset": 2531625,
+          "pos": "v",
+          "sourceTargetHex": "0404",
+          "data": {
+            "meta": {
+              "synsetOffset": 2531625,
+              "lexFilenum": 41,
+              "synsetType": "verb",
+              "wordCount": 6,
+              "words": [
+                { "word": "test", "lexId": 0 },
+                { "word": "prove", "lexId": 3 },
+                { "word": "try", "lexId": 1 },
+                { "word": "try_out", "lexId": 0 },
+                { "word": "examine", "lexId": 0 },
+                { "word": "essay", "lexId": 1 }
+              ],
+              "pointerCount": 13,
+              "pointers": [
+                {
+                  "pointerSymbol": "@",
+                  "synsetOffset": 670261,
+                  "pos": "v",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 7197021,
+                  "pos": "n",
+                  "sourceTargetHex": "0501"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5787005,
+                  "pos": "n",
+                  "sourceTargetHex": "0502"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 636461,
+                  "pos": "n",
+                  "sourceTargetHex": "0501"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 10068234,
+                  "pos": "n",
+                  "sourceTargetHex": "0501"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0404"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 10728998,
+                  "pos": "n",
+                  "sourceTargetHex": "0301"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 794367,
+                  "pos": "n",
+                  "sourceTargetHex": "0302"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0103"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 639975,
+                  "pos": "n",
+                  "sourceTargetHex": "0101"
+                },
+                {
+                  "pointerSymbol": "~",
+                  "synsetOffset": 2520997,
+                  "pos": "v",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": "~",
+                  "synsetOffset": 2532079,
+                  "pos": "v",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": "~",
+                  "synsetOffset": 2532261,
+                  "pos": "v",
+                  "sourceTargetHex": "0000"
+                }
+              ]
+            },
+            "glossary": "put to the test, as for its quality, or give experimental use to; \"This approach has been tried with good results\"; \"Test this recipe\""
+          }
+        },
+        {
+          "pointerSymbol": "+",
+          "synsetOffset": 1195299,
+          "pos": "v",
+          "sourceTargetHex": "0403",
+          "data": {
+            "meta": {
+              "synsetOffset": 1195299,
+              "lexFilenum": 34,
+              "synsetType": "verb",
+              "wordCount": 4,
+              "words": [
+                { "word": "sample", "lexId": 0 },
+                { "word": "try", "lexId": 0 },
+                { "word": "try_out", "lexId": 0 },
+                { "word": "taste", "lexId": 0 }
+              ],
+              "pointerCount": 13,
+              "pointers": [
+                {
+                  "pointerSymbol": "@",
+                  "synsetOffset": 1156834,
+                  "pos": "v",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 7578879,
+                  "pos": "n",
+                  "sourceTargetHex": "0401"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 10692482,
+                  "pos": "n",
+                  "sourceTargetHex": "0401"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5822612,
+                  "pos": "n",
+                  "sourceTargetHex": "0401"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 841901,
+                  "pos": "n",
+                  "sourceTargetHex": "0401"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0304"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 10728998,
+                  "pos": "n",
+                  "sourceTargetHex": "0201"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0201"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5821775,
+                  "pos": "n",
+                  "sourceTargetHex": "0101"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 10692482,
+                  "pos": "n",
+                  "sourceTargetHex": "0104"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 8463817,
+                  "pos": "n",
+                  "sourceTargetHex": "0101"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 4133211,
+                  "pos": "n",
+                  "sourceTargetHex": "0101"
+                },
+                {
+                  "pointerSymbol": "~",
+                  "synsetOffset": 1195675,
+                  "pos": "v",
+                  "sourceTargetHex": "0000"
+                }
+              ]
+            },
+            "glossary": "take a sample of; \"Try these new crackers\"; \"Sample the regional dishes\""
+          }
+        },
+        {
+          "pointerSymbol": "+",
+          "synsetOffset": 2531625,
+          "pos": "v",
+          "sourceTargetHex": "0301",
+          "data": {
+            "meta": {
+              "synsetOffset": 2531625,
+              "lexFilenum": 41,
+              "synsetType": "verb",
+              "wordCount": 6,
+              "words": [
+                { "word": "test", "lexId": 0 },
+                { "word": "prove", "lexId": 3 },
+                { "word": "try", "lexId": 1 },
+                { "word": "try_out", "lexId": 0 },
+                { "word": "examine", "lexId": 0 },
+                { "word": "essay", "lexId": 1 }
+              ],
+              "pointerCount": 13,
+              "pointers": [
+                {
+                  "pointerSymbol": "@",
+                  "synsetOffset": 670261,
+                  "pos": "v",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 7197021,
+                  "pos": "n",
+                  "sourceTargetHex": "0501"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5787005,
+                  "pos": "n",
+                  "sourceTargetHex": "0502"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 636461,
+                  "pos": "n",
+                  "sourceTargetHex": "0501"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 10068234,
+                  "pos": "n",
+                  "sourceTargetHex": "0501"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0404"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 10728998,
+                  "pos": "n",
+                  "sourceTargetHex": "0301"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 794367,
+                  "pos": "n",
+                  "sourceTargetHex": "0302"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0103"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 639975,
+                  "pos": "n",
+                  "sourceTargetHex": "0101"
+                },
+                {
+                  "pointerSymbol": "~",
+                  "synsetOffset": 2520997,
+                  "pos": "v",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": "~",
+                  "synsetOffset": 2532079,
+                  "pos": "v",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": "~",
+                  "synsetOffset": 2532261,
+                  "pos": "v",
+                  "sourceTargetHex": "0000"
+                }
+              ]
+            },
+            "glossary": "put to the test, as for its quality, or give experimental use to; \"This approach has been tried with good results\"; \"Test this recipe\""
+          }
+        },
+        {
+          "pointerSymbol": "+",
+          "synsetOffset": 1195299,
+          "pos": "v",
+          "sourceTargetHex": "0102",
+          "data": {
+            "meta": {
+              "synsetOffset": 1195299,
+              "lexFilenum": 34,
+              "synsetType": "verb",
+              "wordCount": 4,
+              "words": [
+                { "word": "sample", "lexId": 0 },
+                { "word": "try", "lexId": 0 },
+                { "word": "try_out", "lexId": 0 },
+                { "word": "taste", "lexId": 0 }
+              ],
+              "pointerCount": 13,
+              "pointers": [
+                {
+                  "pointerSymbol": "@",
+                  "synsetOffset": 1156834,
+                  "pos": "v",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 7578879,
+                  "pos": "n",
+                  "sourceTargetHex": "0401"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 10692482,
+                  "pos": "n",
+                  "sourceTargetHex": "0401"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5822612,
+                  "pos": "n",
+                  "sourceTargetHex": "0401"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 841901,
+                  "pos": "n",
+                  "sourceTargetHex": "0401"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0304"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 10728998,
+                  "pos": "n",
+                  "sourceTargetHex": "0201"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0201"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 5821775,
+                  "pos": "n",
+                  "sourceTargetHex": "0101"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 10692482,
+                  "pos": "n",
+                  "sourceTargetHex": "0104"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 8463817,
+                  "pos": "n",
+                  "sourceTargetHex": "0101"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 4133211,
+                  "pos": "n",
+                  "sourceTargetHex": "0101"
+                },
+                {
+                  "pointerSymbol": "~",
+                  "synsetOffset": 1195675,
+                  "pos": "v",
+                  "sourceTargetHex": "0000"
+                }
+              ]
+            },
+            "glossary": "take a sample of; \"Try these new crackers\"; \"Sample the regional dishes\""
+          }
+        },
+        {
+          "pointerSymbol": "~",
+          "synsetOffset": 5799581,
+          "pos": "n",
+          "sourceTargetHex": "0000",
+          "data": {
+            "meta": {
+              "synsetOffset": 5799581,
+              "lexFilenum": 9,
+              "synsetType": "noun",
+              "wordCount": 2,
+              "words": [
+                { "word": "field_trial", "lexId": 0 },
+                { "word": "field_test", "lexId": 0 }
+              ],
+              "pointerCount": 2,
+              "pointers": [
+                {
+                  "pointerSymbol": "@",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": "+",
+                  "synsetOffset": 2532261,
+                  "pos": "v",
+                  "sourceTargetHex": "0201"
+                }
+              ]
+            },
+            "glossary": "a test of the performance of some new product under the conditions in which it will be used"
+          }
+        },
+        {
+          "pointerSymbol": "~",
+          "synsetOffset": 5799761,
+          "pos": "n",
+          "sourceTargetHex": "0000",
+          "data": {
+            "meta": {
+              "synsetOffset": 5799761,
+              "lexFilenum": 9,
+              "synsetType": "noun",
+              "wordCount": 1,
+              "words": [ { "word": "alpha_test", "lexId": 0 } ],
+              "pointerCount": 2,
+              "pointers": [
+                {
+                  "pointerSymbol": "@",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": ";c",
+                  "synsetOffset": 3082979,
+                  "pos": "n",
+                  "sourceTargetHex": "0000"
+                }
+              ]
+            },
+            "glossary": "(computer science) a first test of an experimental product (such as computer software) carried out by the developer"
+          }
+        },
+        {
+          "pointerSymbol": "~",
+          "synsetOffset": 5799952,
+          "pos": "n",
+          "sourceTargetHex": "0000",
+          "data": {
+            "meta": {
+              "synsetOffset": 5799952,
+              "lexFilenum": 9,
+              "synsetType": "noun",
+              "wordCount": 1,
+              "words": [ { "word": "beta_test", "lexId": 0 } ],
+              "pointerCount": 2,
+              "pointers": [
+                {
+                  "pointerSymbol": "@",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": ";c",
+                  "synsetOffset": 3082979,
+                  "pos": "n",
+                  "sourceTargetHex": "0000"
+                }
+              ]
+            },
+            "glossary": "(computer science) a second test of an experimental product (such as computer software) carried out by an outside organization"
+          }
+        },
+        {
+          "pointerSymbol": "~",
+          "synsetOffset": 5800153,
+          "pos": "n",
+          "sourceTargetHex": "0000",
+          "data": {
+            "meta": {
+              "synsetOffset": 5800153,
+              "lexFilenum": 9,
+              "synsetType": "noun",
+              "wordCount": 1,
+              "words": [ { "word": "road_test", "lexId": 0 } ],
+              "pointerCount": 2,
+              "pointers": [
+                {
+                  "pointerSymbol": "@",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0000"
+                },
+                {
+                  "pointerSymbol": "~",
+                  "synsetOffset": 5800387,
+                  "pos": "n",
+                  "sourceTargetHex": "0000"
+                }
+              ]
+            },
+            "glossary": "a test to insure that a vehicle is roadworthy"
+          }
+        },
+        {
+          "pointerSymbol": "~",
+          "synsetOffset": 5800527,
+          "pos": "n",
+          "sourceTargetHex": "0000",
+          "data": {
+            "meta": {
+              "synsetOffset": 5800527,
+              "lexFilenum": 9,
+              "synsetType": "noun",
+              "wordCount": 1,
+              "words": [ { "word": "trial_balloon", "lexId": 0 } ],
+              "pointerCount": 1,
+              "pointers": [
+                {
+                  "pointerSymbol": "@",
+                  "synsetOffset": 5799212,
+                  "pos": "n",
+                  "sourceTargetHex": "0000"
+                }
+              ]
+            },
+            "glossary": "a test of public opinion"
+          }
+        }
+      ]
+    },
+    "glossary": "trying something to find out about it; \"a sample for ten days free trial\"; \"a trial of progesterone failed to relieve the pain\""
+  },
+  {
     "meta": {
       "synsetOffset": 2531625,
       "lexFilenum": 41,
@@ -22,7 +661,6 @@
           "pos": "v",
           "sourceTargetHex": "0000",
           "data": {
-            "glossary": "form a critical opinion of; \"I cannot judge some works of modern art\"; \"How do you evaluate this grant proposal?\" \"We shouldn't pass judgment on other people\"",
             "meta": {
               "synsetOffset": 670261,
               "lexFilenum": 31,
@@ -192,7 +830,8 @@
                   "sourceTargetHex": "0000"
                 }
               ]
-            }
+            },
+            "glossary": "form a critical opinion of; \"I cannot judge some works of modern art\"; \"How do you evaluate this grant proposal?\" \"We shouldn't pass judgment on other people\""
           }
         },
         {
@@ -201,7 +840,6 @@
           "pos": "n",
           "sourceTargetHex": "0501",
           "data": {
-            "glossary": "a set of questions or exercises evaluating skill or knowledge; \"when the test was stolen the professor had to make a new set of questions\"",
             "meta": {
               "synsetOffset": 7197021,
               "lexFilenum": 10,
@@ -323,7 +961,8 @@
                   "sourceTargetHex": "0000"
                 }
               ]
-            }
+            },
+            "glossary": "a set of questions or exercises evaluating skill or knowledge; \"when the test was stolen the professor had to make a new set of questions\""
           }
         },
         {
@@ -332,7 +971,6 @@
           "pos": "n",
           "sourceTargetHex": "0502",
           "data": {
-            "glossary": "a detailed inspection of your conscience (as done daily by Jesuits)",
             "meta": {
               "synsetOffset": 5787005,
               "lexFilenum": 9,
@@ -363,7 +1001,8 @@
                   "sourceTargetHex": "0204"
                 }
               ]
-            }
+            },
+            "glossary": "a detailed inspection of your conscience (as done daily by Jesuits)"
           }
         },
         {
@@ -372,7 +1011,6 @@
           "pos": "n",
           "sourceTargetHex": "0501",
           "data": {
-            "glossary": "the act of giving students or candidates a test (as by questions) to determine what they know or have learned",
             "meta": {
               "synsetOffset": 636461,
               "lexFilenum": 4,
@@ -421,7 +1059,8 @@
                   "sourceTargetHex": "0000"
                 }
               ]
-            }
+            },
+            "glossary": "the act of giving students or candidates a test (as by questions) to determine what they know or have learned"
           }
         },
         {
@@ -430,7 +1069,6 @@
           "pos": "n",
           "sourceTargetHex": "0501",
           "data": {
-            "glossary": "someone who administers a test to determine your qualifications",
             "meta": {
               "synsetOffset": 10068234,
               "lexFilenum": 18,
@@ -468,7 +1106,8 @@
                   "sourceTargetHex": "0105"
                 }
               ]
-            }
+            },
+            "glossary": "someone who administers a test to determine your qualifications"
           }
         },
         {
@@ -477,7 +1116,6 @@
           "pos": "n",
           "sourceTargetHex": "0404",
           "data": {
-            "glossary": "trying something to find out about it; \"a sample for ten days free trial\"; \"a trial of progesterone failed to relieve the pain\"",
             "meta": {
               "synsetOffset": 5799212,
               "lexFilenum": 9,
@@ -552,7 +1190,8 @@
                   "sourceTargetHex": "0000"
                 }
               ]
-            }
+            },
+            "glossary": "trying something to find out about it; \"a sample for ten days free trial\"; \"a trial of progesterone failed to relieve the pain\""
           }
         },
         {
@@ -561,7 +1200,6 @@
           "pos": "n",
           "sourceTargetHex": "0301",
           "data": {
-            "glossary": "one who tries",
             "meta": {
               "synsetOffset": 10728998,
               "lexFilenum": 18,
@@ -611,7 +1249,8 @@
                   "sourceTargetHex": "0102"
                 }
               ]
-            }
+            },
+            "glossary": "one who tries"
           }
         },
         {
@@ -620,7 +1259,6 @@
           "pos": "n",
           "sourceTargetHex": "0302",
           "data": {
-            "glossary": "the act of undergoing testing; \"he survived the great test of battle\"; \"candidates must compete in a trial of skill\"",
             "meta": {
               "synsetOffset": 794367,
               "lexFilenum": 4,
@@ -660,7 +1298,8 @@
                   "sourceTargetHex": "0102"
                 }
               ]
-            }
+            },
+            "glossary": "the act of undergoing testing; \"he survived the great test of battle\"; \"candidates must compete in a trial of skill\""
           }
         },
         {
@@ -669,7 +1308,6 @@
           "pos": "n",
           "sourceTargetHex": "0103",
           "data": {
-            "glossary": "trying something to find out about it; \"a sample for ten days free trial\"; \"a trial of progesterone failed to relieve the pain\"",
             "meta": {
               "synsetOffset": 5799212,
               "lexFilenum": 9,
@@ -744,7 +1382,8 @@
                   "sourceTargetHex": "0000"
                 }
               ]
-            }
+            },
+            "glossary": "trying something to find out about it; \"a sample for ten days free trial\"; \"a trial of progesterone failed to relieve the pain\""
           }
         },
         {
@@ -753,7 +1392,6 @@
           "pos": "n",
           "sourceTargetHex": "0101",
           "data": {
-            "glossary": "the act of subjecting to experimental test in order to determine how well something works; \"they agreed to end the testing of atomic weapons\"",
             "meta": {
               "synsetOffset": 639975,
               "lexFilenum": 4,
@@ -775,7 +1413,8 @@
                   "sourceTargetHex": "0101"
                 }
               ]
-            }
+            },
+            "glossary": "the act of subjecting to experimental test in order to determine how well something works; \"they agreed to end the testing of atomic weapons\""
           }
         },
         {
@@ -784,7 +1423,6 @@
           "pos": "v",
           "sourceTargetHex": "0000",
           "data": {
-            "glossary": "check or regulate (a scientific experiment) by conducting a parallel experiment or comparing with another standard; \"Are you controlling for the temperature?\"",
             "meta": {
               "synsetOffset": 2520997,
               "lexFilenum": 41,
@@ -821,7 +1459,8 @@
                   "sourceTargetHex": "0102"
                 }
               ]
-            }
+            },
+            "glossary": "check or regulate (a scientific experiment) by conducting a parallel experiment or comparing with another standard; \"Are you controlling for the temperature?\""
           }
         },
         {
@@ -830,7 +1469,6 @@
           "pos": "v",
           "sourceTargetHex": "0000",
           "data": {
-            "glossary": "circulate or discuss tentatively; test the waters with; \"The Republicans are floating the idea of a tax reform\"",
             "meta": {
               "synsetOffset": 2532079,
               "lexFilenum": 41,
@@ -846,7 +1484,8 @@
                   "sourceTargetHex": "0000"
                 }
               ]
-            }
+            },
+            "glossary": "circulate or discuss tentatively; test the waters with; \"The Republicans are floating the idea of a tax reform\""
           }
         },
         {
@@ -855,7 +1494,6 @@
           "pos": "v",
           "sourceTargetHex": "0000",
           "data": {
-            "glossary": "test something under the conditions under which it will actually be used; \"The Army field tested the new tanks\"",
             "meta": {
               "synsetOffset": 2532261,
               "lexFilenum": 41,
@@ -877,650 +1515,12 @@
                   "sourceTargetHex": "0102"
                 }
               ]
-            }
+            },
+            "glossary": "test something under the conditions under which it will actually be used; \"The Army field tested the new tanks\""
           }
         }
       ]
-    }
-  },
-  {
-    "glossary": "trying something to find out about it; \"a sample for ten days free trial\"; \"a trial of progesterone failed to relieve the pain\"",
-    "meta": {
-      "synsetOffset": 5799212,
-      "lexFilenum": 9,
-      "synsetType": "noun",
-      "wordCount": 4,
-      "words": [
-        { "word": "trial", "lexId": 0 },
-        { "word": "trial_run", "lexId": 0 },
-        { "word": "test", "lexId": 2 },
-        { "word": "tryout", "lexId": 0 }
-      ],
-      "pointerCount": 10,
-      "pointers": [
-        {
-          "pointerSymbol": "@",
-          "synsetOffset": 5798043,
-          "pos": "n",
-          "sourceTargetHex": "0000",
-          "data": {
-            "glossary": "the testing of an idea; \"it was an experiment in living\"; \"not all experimentation is done in laboratories\"",
-            "meta": {
-              "synsetOffset": 5798043,
-              "lexFilenum": 9,
-              "synsetType": "noun",
-              "wordCount": 2,
-              "words": [
-                { "word": "experiment", "lexId": 0 },
-                { "word": "experimentation", "lexId": 0 }
-              ],
-              "pointerCount": 6,
-              "pointers": [
-                {
-                  "pointerSymbol": "@",
-                  "synsetOffset": 5797597,
-                  "pos": "n",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 2532886,
-                  "pos": "v",
-                  "sourceTargetHex": "0201"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 2532595,
-                  "pos": "v",
-                  "sourceTargetHex": "0201"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 2532595,
-                  "pos": "v",
-                  "sourceTargetHex": "0101"
-                },
-                {
-                  "pointerSymbol": "~",
-                  "synsetOffset": 5799071,
-                  "pos": "n",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": "~",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0000"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "pointerSymbol": "+",
-          "synsetOffset": 2531625,
-          "pos": "v",
-          "sourceTargetHex": "0404",
-          "data": {
-            "glossary": "put to the test, as for its quality, or give experimental use to; \"This approach has been tried with good results\"; \"Test this recipe\"",
-            "meta": {
-              "synsetOffset": 2531625,
-              "lexFilenum": 41,
-              "synsetType": "verb",
-              "wordCount": 6,
-              "words": [
-                { "word": "test", "lexId": 0 },
-                { "word": "prove", "lexId": 3 },
-                { "word": "try", "lexId": 1 },
-                { "word": "try_out", "lexId": 0 },
-                { "word": "examine", "lexId": 0 },
-                { "word": "essay", "lexId": 1 }
-              ],
-              "pointerCount": 13,
-              "pointers": [
-                {
-                  "pointerSymbol": "@",
-                  "synsetOffset": 670261,
-                  "pos": "v",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 7197021,
-                  "pos": "n",
-                  "sourceTargetHex": "0501"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5787005,
-                  "pos": "n",
-                  "sourceTargetHex": "0502"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 636461,
-                  "pos": "n",
-                  "sourceTargetHex": "0501"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 10068234,
-                  "pos": "n",
-                  "sourceTargetHex": "0501"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0404"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 10728998,
-                  "pos": "n",
-                  "sourceTargetHex": "0301"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 794367,
-                  "pos": "n",
-                  "sourceTargetHex": "0302"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0103"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 639975,
-                  "pos": "n",
-                  "sourceTargetHex": "0101"
-                },
-                {
-                  "pointerSymbol": "~",
-                  "synsetOffset": 2520997,
-                  "pos": "v",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": "~",
-                  "synsetOffset": 2532079,
-                  "pos": "v",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": "~",
-                  "synsetOffset": 2532261,
-                  "pos": "v",
-                  "sourceTargetHex": "0000"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "pointerSymbol": "+",
-          "synsetOffset": 1195299,
-          "pos": "v",
-          "sourceTargetHex": "0403",
-          "data": {
-            "glossary": "take a sample of; \"Try these new crackers\"; \"Sample the regional dishes\"",
-            "meta": {
-              "synsetOffset": 1195299,
-              "lexFilenum": 34,
-              "synsetType": "verb",
-              "wordCount": 4,
-              "words": [
-                { "word": "sample", "lexId": 0 },
-                { "word": "try", "lexId": 0 },
-                { "word": "try_out", "lexId": 0 },
-                { "word": "taste", "lexId": 0 }
-              ],
-              "pointerCount": 13,
-              "pointers": [
-                {
-                  "pointerSymbol": "@",
-                  "synsetOffset": 1156834,
-                  "pos": "v",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 7578879,
-                  "pos": "n",
-                  "sourceTargetHex": "0401"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 10692482,
-                  "pos": "n",
-                  "sourceTargetHex": "0401"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5822612,
-                  "pos": "n",
-                  "sourceTargetHex": "0401"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 841901,
-                  "pos": "n",
-                  "sourceTargetHex": "0401"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0304"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 10728998,
-                  "pos": "n",
-                  "sourceTargetHex": "0201"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0201"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5821775,
-                  "pos": "n",
-                  "sourceTargetHex": "0101"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 10692482,
-                  "pos": "n",
-                  "sourceTargetHex": "0104"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 8463817,
-                  "pos": "n",
-                  "sourceTargetHex": "0101"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 4133211,
-                  "pos": "n",
-                  "sourceTargetHex": "0101"
-                },
-                {
-                  "pointerSymbol": "~",
-                  "synsetOffset": 1195675,
-                  "pos": "v",
-                  "sourceTargetHex": "0000"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "pointerSymbol": "+",
-          "synsetOffset": 2531625,
-          "pos": "v",
-          "sourceTargetHex": "0301",
-          "data": {
-            "glossary": "put to the test, as for its quality, or give experimental use to; \"This approach has been tried with good results\"; \"Test this recipe\"",
-            "meta": {
-              "synsetOffset": 2531625,
-              "lexFilenum": 41,
-              "synsetType": "verb",
-              "wordCount": 6,
-              "words": [
-                { "word": "test", "lexId": 0 },
-                { "word": "prove", "lexId": 3 },
-                { "word": "try", "lexId": 1 },
-                { "word": "try_out", "lexId": 0 },
-                { "word": "examine", "lexId": 0 },
-                { "word": "essay", "lexId": 1 }
-              ],
-              "pointerCount": 13,
-              "pointers": [
-                {
-                  "pointerSymbol": "@",
-                  "synsetOffset": 670261,
-                  "pos": "v",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 7197021,
-                  "pos": "n",
-                  "sourceTargetHex": "0501"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5787005,
-                  "pos": "n",
-                  "sourceTargetHex": "0502"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 636461,
-                  "pos": "n",
-                  "sourceTargetHex": "0501"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 10068234,
-                  "pos": "n",
-                  "sourceTargetHex": "0501"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0404"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 10728998,
-                  "pos": "n",
-                  "sourceTargetHex": "0301"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 794367,
-                  "pos": "n",
-                  "sourceTargetHex": "0302"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0103"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 639975,
-                  "pos": "n",
-                  "sourceTargetHex": "0101"
-                },
-                {
-                  "pointerSymbol": "~",
-                  "synsetOffset": 2520997,
-                  "pos": "v",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": "~",
-                  "synsetOffset": 2532079,
-                  "pos": "v",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": "~",
-                  "synsetOffset": 2532261,
-                  "pos": "v",
-                  "sourceTargetHex": "0000"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "pointerSymbol": "+",
-          "synsetOffset": 1195299,
-          "pos": "v",
-          "sourceTargetHex": "0102",
-          "data": {
-            "glossary": "take a sample of; \"Try these new crackers\"; \"Sample the regional dishes\"",
-            "meta": {
-              "synsetOffset": 1195299,
-              "lexFilenum": 34,
-              "synsetType": "verb",
-              "wordCount": 4,
-              "words": [
-                { "word": "sample", "lexId": 0 },
-                { "word": "try", "lexId": 0 },
-                { "word": "try_out", "lexId": 0 },
-                { "word": "taste", "lexId": 0 }
-              ],
-              "pointerCount": 13,
-              "pointers": [
-                {
-                  "pointerSymbol": "@",
-                  "synsetOffset": 1156834,
-                  "pos": "v",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 7578879,
-                  "pos": "n",
-                  "sourceTargetHex": "0401"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 10692482,
-                  "pos": "n",
-                  "sourceTargetHex": "0401"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5822612,
-                  "pos": "n",
-                  "sourceTargetHex": "0401"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 841901,
-                  "pos": "n",
-                  "sourceTargetHex": "0401"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0304"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 10728998,
-                  "pos": "n",
-                  "sourceTargetHex": "0201"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0201"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 5821775,
-                  "pos": "n",
-                  "sourceTargetHex": "0101"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 10692482,
-                  "pos": "n",
-                  "sourceTargetHex": "0104"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 8463817,
-                  "pos": "n",
-                  "sourceTargetHex": "0101"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 4133211,
-                  "pos": "n",
-                  "sourceTargetHex": "0101"
-                },
-                {
-                  "pointerSymbol": "~",
-                  "synsetOffset": 1195675,
-                  "pos": "v",
-                  "sourceTargetHex": "0000"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "pointerSymbol": "~",
-          "synsetOffset": 5799581,
-          "pos": "n",
-          "sourceTargetHex": "0000",
-          "data": {
-            "glossary": "a test of the performance of some new product under the conditions in which it will be used",
-            "meta": {
-              "synsetOffset": 5799581,
-              "lexFilenum": 9,
-              "synsetType": "noun",
-              "wordCount": 2,
-              "words": [
-                { "word": "field_trial", "lexId": 0 },
-                { "word": "field_test", "lexId": 0 }
-              ],
-              "pointerCount": 2,
-              "pointers": [
-                {
-                  "pointerSymbol": "@",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": "+",
-                  "synsetOffset": 2532261,
-                  "pos": "v",
-                  "sourceTargetHex": "0201"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "pointerSymbol": "~",
-          "synsetOffset": 5799761,
-          "pos": "n",
-          "sourceTargetHex": "0000",
-          "data": {
-            "glossary": "(computer science) a first test of an experimental product (such as computer software) carried out by the developer",
-            "meta": {
-              "synsetOffset": 5799761,
-              "lexFilenum": 9,
-              "synsetType": "noun",
-              "wordCount": 1,
-              "words": [ { "word": "alpha_test", "lexId": 0 } ],
-              "pointerCount": 2,
-              "pointers": [
-                {
-                  "pointerSymbol": "@",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": ";c",
-                  "synsetOffset": 3082979,
-                  "pos": "n",
-                  "sourceTargetHex": "0000"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "pointerSymbol": "~",
-          "synsetOffset": 5799952,
-          "pos": "n",
-          "sourceTargetHex": "0000",
-          "data": {
-            "glossary": "(computer science) a second test of an experimental product (such as computer software) carried out by an outside organization",
-            "meta": {
-              "synsetOffset": 5799952,
-              "lexFilenum": 9,
-              "synsetType": "noun",
-              "wordCount": 1,
-              "words": [ { "word": "beta_test", "lexId": 0 } ],
-              "pointerCount": 2,
-              "pointers": [
-                {
-                  "pointerSymbol": "@",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": ";c",
-                  "synsetOffset": 3082979,
-                  "pos": "n",
-                  "sourceTargetHex": "0000"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "pointerSymbol": "~",
-          "synsetOffset": 5800153,
-          "pos": "n",
-          "sourceTargetHex": "0000",
-          "data": {
-            "glossary": "a test to insure that a vehicle is roadworthy",
-            "meta": {
-              "synsetOffset": 5800153,
-              "lexFilenum": 9,
-              "synsetType": "noun",
-              "wordCount": 1,
-              "words": [ { "word": "road_test", "lexId": 0 } ],
-              "pointerCount": 2,
-              "pointers": [
-                {
-                  "pointerSymbol": "@",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0000"
-                },
-                {
-                  "pointerSymbol": "~",
-                  "synsetOffset": 5800387,
-                  "pos": "n",
-                  "sourceTargetHex": "0000"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "pointerSymbol": "~",
-          "synsetOffset": 5800527,
-          "pos": "n",
-          "sourceTargetHex": "0000",
-          "data": {
-            "glossary": "a test of public opinion",
-            "meta": {
-              "synsetOffset": 5800527,
-              "lexFilenum": 9,
-              "synsetType": "noun",
-              "wordCount": 1,
-              "words": [ { "word": "trial_balloon", "lexId": 0 } ],
-              "pointerCount": 1,
-              "pointers": [
-                {
-                  "pointerSymbol": "@",
-                  "synsetOffset": 5799212,
-                  "pos": "n",
-                  "sourceTargetHex": "0000"
-                }
-              ]
-            }
-          }
-        }
-      ]
-    }
+    },
+    "glossary": "put to the test, as for its quality, or give experimental use to; \"This approach has been tried with good results\"; \"Test this recipe\""
   }]
 }

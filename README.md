@@ -10,17 +10,6 @@ Simple Node.js module for accessing [Princeton University's WordNet](http://word
 
 An example how to use the module is located in examples/lookup.js.
 
-    var wordnet = require('wordnet');
-    
-    wordnet.lookup('define', function(err, definitions) {
-    
-      definitions.forEach(function(definition) {
-        console.log('  words: %s', words.trim());
-        console.log('  %s', definition.glossary);
-      });
-    
-    });
-
 # License
 
 MIT License

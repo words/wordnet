@@ -2,7 +2,7 @@ const util = require('util');
 const wordnet = require('../lib/wordnet.js');
 
 (async () => {
-  wordnet.init();
+  await wordnet.init();
 
   let results = await wordnet.list();
 

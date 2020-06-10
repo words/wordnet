@@ -1,9 +1,12 @@
 {
   "name": "wordnet",
   "description": "English-English dictionary with 140k+ words from WordNet.",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "author": "Dariusz Dziuk <me@dariuszdziuk.com>",
   "main": "./lib/wordnet.js",
+  "scripts": {
+    "test": "tape test/wordnet.js"
+  },
   "dependencies": {},
   "devDependencies": {
     "commander": "^5.1.0",
@@ -16,7 +19,7 @@
     "dictionary",
     "lookup"
   ],
-  "repository": "git://github.com/dariuszdziuk/wordnet",
+  "repository": "git://github.com/words/wordnet",
   "license": "MIT",
   "engines": {
     "node": ">= 0.10.0"

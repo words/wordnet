@@ -48,12 +48,16 @@ function printWord(def, includePointers) {
 (async () => {
   await wordnet.init();
 
-  let definitions = await wordnet.lookup(word);
+  wordnet.lookup(word)
+    .then((definitions) => {
+      console.log(`\n  ${word}\n`);
 
-  console.log(`\n  ${word}\n`);
-
-  definitions.forEach((definition) => {
-    printWord(definition, true);
-  });
+      definitions.forEach((definition) => {
+        printWord(definition, true);
+      });
+    })
+    .catch((e) => {
+      console.error(e);
+    });
 
 })();

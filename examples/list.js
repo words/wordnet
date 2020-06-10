@@ -1,13 +1,10 @@
-/**
- * WordNet lookup example
- *
- * @author Dariusz Dziuk <me@dariuszdziuk.com>
- */
+const util = require('util');
+const wordnet = require('../lib/wordnet.js');
 
-var wordnet = require('../lib/wordnet.js');
+(async () => {
+  wordnet.init();
 
-wordnet.list(function(err, list) {
+  let results = await wordnet.list();
 
-  console.log(list);
-
-});
+  console.log(util.inspect(results, false, null, true));
+})();

@@ -4,11 +4,12 @@
   "version": "0.1.2",
   "author": "Dariusz Dziuk <me@dariuszdziuk.com>",
   "main": "./lib/wordnet.js",
-  "dependencies": {
-    "async": "~0.2.9"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "commander": "~2.0.0"
+    "commander": "^5.1.0",
+    "nyc": "^15.1.0",
+    "tape": "^5.0.1",
+    "xo": "^0.32.0"
   },
   "keywords": [
     "wordnet",

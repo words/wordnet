@@ -30,6 +30,9 @@ Simple Node.js module for accessing [Princeton University's WordNet](http://word
 
 Check out the [examples folder](examples) for more.
 
+
+# API
+
 ### `wordnet.init([database_dir])`
 
 Loads the WordNet database. Takes an optional folder path (as a `String`).
@@ -38,13 +41,15 @@ Loads the WordNet database. Takes an optional folder path (as a `String`).
 
 Returns definitions (metadata and glossary) for the given word. The definitions include pointers to related words, which can be omitted by passing `skipPointers = true`.
 
-### wordnet.list()
+### `wordnet.list()`
 
 Lists all available words in the WordNet database. If called before `wordnet.init()` finishes, it will return an empty array.
+
 
 # License
 
 MIT License
+
 
 # 3rd-party License
 

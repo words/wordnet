@@ -4,6 +4,7 @@ const wordnet = require('../lib/wordnet.js');
 program
   .version('0.0.1')
   .usage('<word>')
+  .option('-d, --database <database-path>', 'Location of WordNet index and data files.')
   .parse(process.argv);
 
 /* Word to look up */

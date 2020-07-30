@@ -19,7 +19,7 @@ Simple Node.js module for accessing [Princeton University's WordNet](http://word
     // All methods return promises.
     wordnet.lookup('enlightened')
       .then((definitions) => {
-        definitons.forEach((def) => {
+        definitions.forEach((def) => {
           console.log(`type: ${def.meta.synsetType}`)
           console.log(`${def.glossary}\n`);
         });

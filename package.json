@@ -1,7 +1,7 @@
 {
   "name": "wordnet",
   "description": "English-English dictionary with 140k+ words from WordNet.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Dariusz Dziuk <me@dariuszdziuk.com>",
   "main": "./lib/wordnet.js",
   "scripts": {

@@ -91,21 +91,21 @@ declare module 'wordnet' {
    * @param {String} databaseDir Optional database directory path.
    * @return {Promise} Empty promise object.
    */
-  export function init(databaseDir: any): Promise<any>;
+   export function init(databaseDir: string): Promise<undefined>;
 
   /**
    * Lists all the words.
    *
    * @return {Array<String>} List of all words.
    */
-  export function list(): String[];
+  export function list(): string[];
 
   /**
    * Looks up a word
    *
    * @param {String} word Word to look up.
-   * @param {boolean} skipPointers Whether to skip inclusion of pointer data.
-   * @return {Promise} Resolves with definitions for the given word.
+   * @param {Boolean} skipPointers Whether to skip inclusion of pointer data.
+   * @return {Promise<Definition>} Resolves with definitions for the given word.
    */
   export function lookup(word: string, skipPointers?: boolean): Promise<Definition>;
 }

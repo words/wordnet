@@ -81,7 +81,7 @@ type Definition = {
     }[];
   };
   glossary: string;
-}[];
+};
 
 declare module 'wordnet' {
 
@@ -105,8 +105,7 @@ declare module 'wordnet' {
    *
    * @param {String} word Word to look up.
    * @param {boolean} skipPointers Whether to skip inclusion of pointer data.
-   * @return {Promise<Definition>} Resolves with definitions for the given word.
+   * @return {Promise<Array<Definition>>} Resolves with definitions for the given word.
    */
-  export function lookup(word: string, skipPointers?: boolean): Promise<Definition>;
+  export function lookup(word: string, skipPointers?: boolean): Promise<Definition[]>;
 }
-//# sourceMappingURL=wordnet.d.ts.map

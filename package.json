@@ -23,5 +23,6 @@
   "license": "MIT",
   "engines": {
     "node": ">= 0.10.0"
-  }
+  },
+  "types": "./types/wordnet.d.ts"
 }
